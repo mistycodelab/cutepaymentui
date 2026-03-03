@@ -82,3 +82,22 @@ button {
 button:hover {
   background: #ff3f78;
 }
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .left {
+    padding: 20px;
+  }
+
+  .mockup img {
+    width: 180px;
+  }
+
+  .right {
+    padding: 25px;
+  }
+}
