@@ -8,13 +8,14 @@
 body {
   min-height: 100vh;
   display: flex;
+  padding: 20px;
   justify-content: center;
   align-items: center;
   background: linear-gradient(135deg, #fdc1c3, #facbd6);
 }
 
 .card {
-  width: 900px;
+  max-width: 900px;
   background: white;
   border-radius: 28px;
   display: flex;
